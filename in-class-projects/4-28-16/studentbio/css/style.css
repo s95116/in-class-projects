@@ -1,0 +1,83 @@
+/* This sets the style for the entire page:
+
+	Sets all the margins and padding to 0px to help keep the styling consistent across all web browsers;
+	Sets the background color;
+	Sets the Font Family. It can hold several font names as a "fallback" system. 
+		If the browser does not support the first font, it tries the next font.;
+	Sets the font color;
+	Sets the font size;
+	Sets the line height to 1.5x's the normal height;
+ */
+
+body { 
+	margin: 0; 
+	padding: 0; 
+	background-color: #efeee7;
+	font-family: Georgia, "Times New Roman", Serif;
+	color: #333333;
+	font-size:18px;
+	line-height: 150%;
+}
+
+/*
+	This sets the style for the H1 tag (If there are other H1 tags, it will also set the style for them):
+	Sets the background color;
+	Sets the top and bottom padding to 10px
+	Sets the font color
+	Sets all margins to 0px
+	Sets the font-size
+	Aligns all text to center
+	Adds 20px to the bottom margin
+*/
+h1{
+  background: #333333;
+  padding: 20px 0;
+  color: #eee;
+  margin: 0;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;	
+}
+	
+/* This sets the style for the class=Container:
+
+	Sets the width of the container to 1024px;
+	Sets the top and bottom margin to 0px and the left and right margin to auto size;
+	
+	We use a "." since this is a class level element.;
+*/
+.container{	
+	width:1024px;
+	margin: 0 auto;
+}
+
+/* floats the three ids to the left*/
+#main-bio, 
+#contact-info,
+#bio-image {
+	float: left
+}
+
+#main-bio{
+	width:70%;
+}
+
+#bio-image{
+	width:200px;
+	height:200px;
+	margin-right: 20px;
+}
+
+#contact-info{
+	width:30%;
+		
+}
+
+h2{
+	font-size:20px;
+}
+
+a{
+	color: #d21034;
+}
+
