@@ -1,0 +1,39 @@
+h3{
+
+	font-size:20px;
+	padding-left: 40px;
+}
+
+.container{
+	width:600px;
+	margin:0 auto;
+}
+
+.fixed {
+	position:fixed;
+	background-color:gray;
+	width:200px;
+	height:40px;
+	padding: 20px;
+}
+
+.relative {
+	position:relative;
+	background-color:#eee;
+	height:140px;
+	text-align: center;
+	padding: 10px;
+}
+
+.absolute {
+	position:absolute;
+	background-color:#999;
+	height:40px;
+	text-align: center;
+	padding: 10px;
+	right:-20px;
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-left: 15px;
+	bottom: 0;
+}
